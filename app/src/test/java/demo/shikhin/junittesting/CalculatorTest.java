@@ -24,16 +24,16 @@ public class CalculatorTest {
 
     @Test
     public void testSubtract() throws Exception {
-        assertEquals(1d, cal.sum(6d, 5d), 0);
+        assertEquals(1d, cal.subtract(6d, 5d), 0);
     }
 
     @Test
     public void testMultiply() throws Exception {
-        assertEquals(10d, cal.sum(2d, 5d), 0);
+        assertEquals(10d, cal.multiply(2d, 5d), 0);
     }
 
     @Test
     public void testDivide() throws Exception {
-        assertEquals(4d, cal.sum(20d, 5d), 0);
+        assertEquals(4d, cal.divide(20d, 5d), 0);
     }
 }
